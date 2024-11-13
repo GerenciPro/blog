@@ -1,0 +1,42 @@
+---
+layout: page
+title: Entre em contato
+form: true
+---
+
+<p>Quer entrar em contato? Preencha o formulário abaixo e entraremos em contato em seguida!</p>
+<form name="sentMessage" id="contactForm" novalidate>
+  <div class="control-group">
+    <div class="form-group floating-label-form-group controls">
+      <label>Nome</label>
+      <input type="text" class="form-control" placeholder="Nome" id="name" required data-validation-required-message="Por favor, preencha seu nome.">
+      <p class="help-block text-danger"></p>
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="form-group floating-label-form-group controls">
+      <label>Email</label>
+      <input type="email" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Por favor, preencha seu email.">
+      <p class="help-block text-danger"></p>
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="form-group col-xs-12 floating-label-form-group controls">
+      <label>Telefone</label>
+      <input type="tel" class="form-control" placeholder="Telefone" id="phone" required data-validation-required-message="Por favor, adicione um telefone para contato.">
+      <p class="help-block text-danger"></p>
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="form-group floating-label-form-group controls">
+      <label>Mensagem</label>
+      <textarea rows="5" class="form-control" placeholder="Mensagem" id="message" required data-validation-required-message="Digite sua mensagem."></textarea>
+      <p class="help-block text-danger"></p>
+    </div>
+  </div>
+  <br>
+  <div id="success"></div>
+  <div class="form-group">
+    <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
+  </div>
+</form>
