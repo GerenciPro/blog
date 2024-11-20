@@ -29,6 +29,8 @@ url: "https://gerencipro.com.br" # the base hostname & protocol for your site, e
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
+google_analytics: "G-3NJZFQV06J"
+
 # Build settings
 remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
 plugins:
