@@ -27,9 +27,10 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gerencipro.com.br" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-# github_username:  jekyll
-phone_number: +5518997228631
+github_username: gerencipro
+whatsapp_number: +5518997228631
 instagram_username: gerencipro
+linkedin_username: gerencipro
 
 google_analytics: "G-3NJZFQV06J"
 
