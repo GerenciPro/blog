@@ -28,4 +28,3 @@ Para facilitar o acesso ao GerenciPro, você pode instalar o app no seu disposit
 2. Em seguida, clique no ícone de instalação de aplicativo na barra de endereço.
 
 3. Feito isso, o app GerenciPro estará instalado no seu computador e você poderá acessá-lo mais facilmente sempre que precisar
-```
